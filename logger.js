@@ -1,3 +1,4 @@
+
 var url='http://mylogger.io/log';
 function log(message){
     //send an http request
@@ -9,4 +10,4 @@ function log(message){
 module.exports=log;
 //Its not an object now
 //To export the log method, the name exported in the one on the rightside, it can vary
-//
+//modules are private
